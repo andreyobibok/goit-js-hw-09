@@ -35,5 +35,8 @@ createBtn.addEventListener('click', e => {
           `❌ Rejected promise ${position} in ${delay}ms`
         );
       });
-    }
+  }
+  delay.value = "";
+  step.value = "";
+  amount.value = "";
 });
